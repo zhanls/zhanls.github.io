@@ -9,24 +9,13 @@
 #    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: 主页
+    text: Main
     url: /
   archives:
     url: /archives
-  tags:
-    url: /tags
-  th-list:
-    text: Categories
-    url: /categories
   github:
-    url: https://github.com/yscoder
+    url: https://github.com/zhanls
     target: _blank
-  weibo:
-    url: http://www.weibo.com/ysweb
-    target: _blank
-  link:
-    text: 测试
-    url: /custom
 
 # 你的头像url
 avatar: /img/avatar.jpg
