@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>陌上人如玉,公子世无双</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zhanls.github.io/"/>
+  <updated>2020-10-10T01:35:50.657Z</updated>
+  <id>https://zhanls.github.io/</id>
+  
+  <author>
+    <name>詹淋淞</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>奶茶妹妹赴剑桥读书引发热议，到底是真是假？</title>
+    <link href="https://zhanls.github.io/2020/07/11/%E5%A5%B6%E8%8C%B6%E5%A6%B9%E5%A6%B9%E8%B5%B4%E5%89%91%E6%A1%A5%E8%AF%BB%E4%B9%A6%E5%BC%95%E5%8F%91%E7%83%AD%E8%AE%AE%EF%BC%8C%E5%88%B0%E5%BA%95%E6%98%AF%E7%9C%9F%E6%98%AF%E5%81%87%EF%BC%9F/"/>
+    <id>https://zhanls.github.io/2020/07/11/%E5%A5%B6%E8%8C%B6%E5%A6%B9%E5%A6%B9%E8%B5%B4%E5%89%91%E6%A1%A5%E8%AF%BB%E4%B9%A6%E5%BC%95%E5%8F%91%E7%83%AD%E8%AE%AE%EF%BC%8C%E5%88%B0%E5%BA%95%E6%98%AF%E7%9C%9F%E6%98%AF%E5%81%87%EF%BC%9F/</id>
+    <published>2020-07-11T14:57:08.000Z</published>
+    <updated>2020-10-10T01:35:50.657Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天文章《利己也许是天性，但”精致利己主义“不是》谈了很多点啊，谈到了很多人性心理学层面上的东西，个人觉得谈的很多确实都是非常有价值的，也很真实的东西，比如谈到利己主义时举例，如果让人玩一个分钱的游戏，自己可以决定给”队友“多少钱，他们做决定的时间越短，分给自己的就越多。这可能说明，自动化，快速决策的行为往往表现为自利行为，是人更下意识的反应，而为他人考虑，为他人谋福利的行为则可能需要更多的认知资源。这又让我想到了另一个例子，“让一部分人先富起来”是邓小平同志于1985年10月23日，会见美国时代公司组织的美国高级企业家代表团时说的话。小平同志的这个观点和主张是非常有远见和前瞻性的，可以说洞悉人性，也可以说是无奈之举。</p><p>偏离主题了，不过我是怎么浏览心理学，突然到了浏览”共产主义“”意识形态“等百度百科的啊，原来，是看到了”让一部分人先富起来“百度百科，然后里面有一条连接。Anyway，buzhongy了，不过思维被打断的感觉有确确实实的体会到，完全不相干的两件事‘我为什么从浏览《利己也许是天性，但”精致利己主义“不是》，一路走到了对共产主义，意识形态的纠结上面’<br>和”阅读学习共产主义的思想“</p><p>只能说人一辈子有问不完的为什么把，卡个KPI，每日一篇博客，11点59分~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天文章《利己也许是天性，但”精致利己主义“不是》谈了很多点啊，谈到了很多人性心理学层面上的东西，个人觉得谈的很多确实都是非常有价值的，也很真实的东西，比如谈到利己主义时举例，如果让人玩一个分钱的游戏，自己可以决定给”队友“多少钱，他们做决定的时间越短，分给自己的就越多。这
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git commit 常见用法</title>
+    <link href="https://zhanls.github.io/2020/07/03/Git-commit-%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95/"/>
+    <id>https://zhanls.github.io/2020/07/03/Git-commit-%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95/</id>
+    <published>2020-07-03T14:39:40.000Z</published>
+    <updated>2020-10-10T01:35:50.646Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git-commit"><a href="#Git-commit" class="headerlink" title="Git commit"></a>Git commit</h1><p>git commit 主要是将暂存区里的改动给提交到本地的版本库。每次使用git commit 命令我们都会在本地版本库生成一个40位的哈希值，这个哈希值也叫commit-id，commit-id在版本回退的时候是非常有用的，它相当于一个快照，可以在未来的任何时候通过与git reset的组合命令回到这里.</p><h2 id="git-commit-m-“message”"><a href="#git-commit-m-“message”" class="headerlink" title="git commit -m “message”"></a>git commit -m “message”</h2><p>这种是比较常见的用法，-m 参数表示可以直接输入后面的“message”，如果不加 -m参数，那么是不能直接输入message的，而是会调用一个编辑器一般是vim来让你输入这个message。</p><p>message即是我们用来简要说明这次提交的语句。还有另外一种方法，当我们想要提交的message很长或者我们想描述的更清楚更简洁明了一点，我们可以使用这样的格式，如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">'</span></span><br><span class="line"><span class="string">message1</span></span><br><span class="line"><span class="string">message2</span></span><br><span class="line"><span class="string">message3</span></span><br><span class="line"><span class="string">'</span></span><br></pre></td></tr></table></figure><h2 id="git-commit-a-m-“massage”"><a href="#git-commit-a-m-“massage”" class="headerlink" title="git commit -a -m “massage”"></a>git commit -a -m “massage”</h2><p>其他功能如-m参数，加的-a参数可以将所有已跟踪文件中的执行修改或删除操作的文件都提交到本地仓库，即使它们没有经过git add添加到暂存区。</p><p>注意，新加的文件（即没有被git系统管理的文件）是不能被提交到本地仓库的。建议一般不要使用-a参数，正常的提交还是使用git add先将要改动的文件添加到暂存区，再用git commit 提交到本地版本库。</p><h2 id="git-commit-–amend"><a href="#git-commit-–amend" class="headerlink" title="git commit –amend"></a>git commit –amend</h2><p>如果我们不小心提交了一版我们不满意的代码，并且给它推送到服务器了，在代码没被merge之前我们希望再修改一版满意的，而如果我们不想在服务器上abondon，那么我们怎么做呢？</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit --amend //也叫追加提交，它可以在不增加一个新的 commit-id 情况下将新修改的代码追加到前一次的 commit-id 中</span><br></pre></td></tr></table></figure><ol><li><p>假如现在版本库里最近的一版正是我们想要追加进去的那版，此时是最简单的，直接修改工作区代码，然后<code>git add</code>，之后就可以直接进行git push到服务器，中间不需要进行其他的操作如<code>git pull</code>等。</p></li><li><p>如果现在版本库里最近的一版不是我们想要追加进去的那版，那么此时我们需要将版本库里的版本回退到我们想要追加的那一版，想要将版本回退到我们想要的哪一版有好几种方法。</p><ol><li><p>第一种即是我们从服务器上选取我们需要的版本，直接进行挑拣，在服务器的提交管理页面上右上方一般会有一个Download按钮，点击会弹出一个下拉框，选择其中的cherry-pick，复制命令，之后在我们版本仓库对应的目录下运行这个命令，执行完后，使用git log -1 命令，可以查看到现在版本库里最近的一版变成了我们刚才挑拣的这版，此时再在工作区直接修改代码，改完之后进行<code>git add</code>，再执行本<code>git commit --amend</code>命令，之后<code>git push</code>。</p></li><li><p>使用gitk或其他的图形界面化工具，在终端输入 gitk，回车，会弹出 gitk 的图形界面，在界面的左侧部分陈列着版本库中的一条条commit-id，此时选中我们需要的那一版，右键点击之后会弹出一个选择菜单，如果是在 master  分支上，那么其中会有一项是 Reset master branch to here，点击这项，会弹出一个名为confirm reset的确认box，选择reset type 中的hard项，再点击OK，关闭gitk图形界面，回到终端，运行<code>git log -1</code>命令，发现现在版本库里最近的一次提交已经是我们希望的那一版了，此时再在工作区直接修改代码，改完之后进行<code>git add</code>，再执行本<code>git commit --amend</code>命令，之后<code>git push</code>.</p></li><li><p>如果我们知道我们需要的版本与现在最近的版本中间隔着 n 个提交，那么我们可以直接使用<code>git reset --hard HEAD～n</code>命令，关于<code>git reset</code>命令有详解，此时这个命令执行完后，运行<code>git log -1</code>命令我们会发现现在版本库里最近的一版就是我们需要的那版，此时再在工作区直接修改代码，改完之后进行<code>git add</code>，再执行本<code>git commit --amend</code>命令，之后<code>git push</code>.</p></li><li><p>如果我们不知道我们需要的版本与现在最近的版本中间隔着 n 个提交，那么我们可以使用<code>git log</code>来查看版本库中的commit-id，找到我们需要的commit-id后，在终端中执行<code>git reset --hard commit-id</code>，这个命令执行完后，运行<code>git log -1</code>命令我们会发现现在版本库里最近的一版就是我们需要的那版，此时再在工作区直接修改代码，改完之后进行<code>git add</code>，再执行本<code>git commit --amend</code>命令，之后<code>git push</code>.</p></li></ol></li></ol><h2 id="git-commit-–help"><a href="#git-commit-–help" class="headerlink" title="git commit –help"></a>git commit –help</h2><p>查看帮助，还有许多参数有其他效果，一般来说了解上述三种即可满足我们工作中的日常开发了</p><h1 id="拓展补充"><a href="#拓展补充" class="headerlink" title="拓展补充"></a>拓展补充</h1><p>通常我们提交git的时候都是</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"some str"</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure><p>这三大步，而实际上，你只需要两条命令就够了，除非有新的文件要被添加进去。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git commit -am <span class="string">"some str"</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Git-commit&quot;&gt;&lt;a href=&quot;#Git-commit&quot; class=&quot;headerlink&quot; title=&quot;Git commit&quot;&gt;&lt;/a&gt;Git commit&lt;/h1&gt;&lt;p&gt;git commit 主要是将暂存区里的改动给提交到本地的版本库。每次使用g
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>相对路径</title>
+    <link href="https://zhanls.github.io/2020/07/01/%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/"/>
+    <id>https://zhanls.github.io/2020/07/01/%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/</id>
+    <published>2020-07-01T03:37:53.000Z</published>
+    <updated>2020-10-10T01:35:50.665Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="相对路径使用的符号及其含义"><a href="#相对路径使用的符号及其含义" class="headerlink" title="相对路径使用的符号及其含义"></a>相对路径使用的符号及其含义</h1><ul><li>“./“ or “”：代表目前所在的目录</li><li>“../“：代表上一层目录</li><li>“/“：代表根目录<br>假设有如下文件系统：<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://upload-images.jianshu.io/upload_images/13300621-5d0063f8d59462a7.png?imageMogr2/auto-orient/strip|imageView2/2/w/791/format/webp" alt="一张图" title="">                </div>                <div class="image-caption">一张图</div>            </figure><h2 id="文件在当前目录"><a href="#文件在当前目录" class="headerlink" title="文件在当前目录"></a>文件在当前目录</h2></li><li><em>2.html访问img2.png*</em><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"./img2.png"</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- or --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"img2.png"</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="文件在上一级目录"><a href="#文件在上一级目录" class="headerlink" title="文件在上一级目录"></a>文件在上一级目录</h2></li><li><em>1.html访问img下的img1.png*</em><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"../img/img1.png"</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><em>2.html访问img下的img1.png*</em><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"../../img/img1.png"</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="文件在下一级目录"><a href="#文件在下一级目录" class="headerlink" title="文件在下一级目录"></a>文件在下一级目录</h2></li><li><em>1.html访问img2.png*</em><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"../../img/img1.png"</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="根目录表示法"><a href="#根目录表示法" class="headerlink" title="根目录表示法"></a>根目录表示法</h2></li><li><em>任何页面访问img下的img1.png*</em><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"/img/img1.png"</span>&gt;</span></span><br></pre></td></tr></table></figure><h1 id="last-but-not-least-webpack-devServer-proxy-path"><a href="#last-but-not-least-webpack-devServer-proxy-path" class="headerlink" title="last but not least - webpack devServer proxy path"></a>last but not least - webpack devServer proxy path</h1></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;相对路径使用的符号及其含义&quot;&gt;&lt;a href=&quot;#相对路径使用的符号及其含义&quot; class=&quot;headerlink&quot; title=&quot;相对路径使用的符号及其含义&quot;&gt;&lt;/a&gt;相对路径使用的符号及其含义&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;“./“ or “”：代表目前所在的目录
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TypeScript的读书笔记（一）</title>
+    <link href="https://zhanls.github.io/2020/06/29/TypeScript%E7%9A%84%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>https://zhanls.github.io/2020/06/29/TypeScript%E7%9A%84%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</id>
+    <published>2020-06-29T05:43:19.000Z</published>
+    <updated>2020-10-10T01:35:50.651Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="语言概况"><a href="#语言概况" class="headerlink" title="语言概况"></a>语言概况</h1><p>TypeScript的作者是安德斯·海尔斯伯格，C#的首席架构师。丹麦的天才程序员，大牛中的大牛，1960年生人</p><h1 id="研发背景"><a href="#研发背景" class="headerlink" title="研发背景"></a>研发背景</h1><p>TypeScript 起源于使用JavaScript开发的大型项目 。由于JavaScript语言本身的局限性，难以胜任和维护大型项目开发。因此微软开发了TypeScript，使得其能够胜任开发大型项目。</p><p>— 因此是否可以总结出一点：没有开发过大型项目的TypeScript使用者，水平一般不会很高（思考：为什么？）。当然你对对方水平的认识是充满了主观色彩，或者说以你自己为基准的，工厂的木匠对建筑大师的设计还嗤之以鼻呢。</p><h1 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h1><p>TypeScript 是一种给 JavaScript 添加特性的语言扩展。</p><ul><li>类型批注</li><li>类</li><li>接口</li><li>模块</li><li>装饰器</li><li>枚举</li></ul><p>TS做的事情不是新鲜事，我上学的一门课程Software Testing用到了Java语言，C++和C语言不太清楚，但我认为TS的面向对象編程的理念大概也是出自此处。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;语言概况&quot;&gt;&lt;a href=&quot;#语言概况&quot; class=&quot;headerlink&quot; title=&quot;语言概况&quot;&gt;&lt;/a&gt;语言概况&lt;/h1&gt;&lt;p&gt;TypeScript的作者是安德斯·海尔斯伯格，C#的首席架构师。丹麦的天才程序员，大牛中的大牛，1960年生人&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GitLab分支管理规范</title>
+    <link href="https://zhanls.github.io/2020/06/29/GitLab%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83/"/>
+    <id>https://zhanls.github.io/2020/06/29/GitLab%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83/</id>
+    <published>2020-06-29T01:18:26.000Z</published>
+    <updated>2020-10-10T01:35:50.648Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="版本号规范"><a href="#版本号规范" class="headerlink" title="版本号规范"></a>版本号规范</h1><p>规范的概要如下：</p><p>版本格式：主版本号.次版本号.修订号，版本号递增规则如下：</p><p>主版本号：当你做了不兼容的功能修改，最小为0</p><p>次版本号：当你做了向下兼容的功能性新增，最小为0</p><p>修订号：当你做了向下兼容的问题修正，最小为0</p><p>版本编译信息可以加到“主版本号.次版本号.修订号”的后面，作为四位版本号（可选）。</p><h1 id="分支命名规范"><a href="#分支命名规范" class="headerlink" title="分支命名规范"></a>分支命名规范</h1><p>通常每个应用的代码将包括 master、develop、release、hotfix、feature分支，release、hotfix 、feature分支的命名规则分别为：release/<em>，hotfix/</em>、feature/*。</p><h2 id="主要分支（保护分支）"><a href="#主要分支（保护分支）" class="headerlink" title="主要分支（保护分支）"></a>主要分支（保护分支）</h2><p><strong>master分支：</strong></p><p>master分支的所有操作都是受保护的，团队中应该指定相关负责人对master分支进行管理。 master分支上存放的应该是随时可供在生产环境中部署的代码（Production Ready state）。当开发活动告一段落，产生了一份新的可供部署的代码时，master分支上的代码会被更新。同时，每一次更新，都有对应的版本号标签（TAG）。</p><p><strong>develop分支：</strong></p><p>develop分支也是受保护的，开发人员不具备权限直接将代码合并到deveolp，团队中应该指定相关人员进行code review，决定是否接受开发人员合并代码的请求。 主库除了master分支外，至少还要有一个活动分支，即develop分支，平时日常的开发都基于活动分支develop开发。</p><h2 id="辅助分支"><a href="#辅助分支" class="headerlink" title="辅助分支"></a>辅助分支</h2><p><strong>feature分支：</strong></p><p>feature分支用于开发一项新的功能，feature分支从develop分支创建，feature分支最终需要合并回develop分支或者被废弃，合并回develop分支后feature分支可删除。</p><p><strong>release分支：</strong></p><p>release分支用于开发完成后将代码进行发布。当本次迭代的所有功能完成开发，并且合并到develop分支后，从develop分支创建release分支（创建动作可由模块负责人来操作）进行后续的提测和发布工作。release分支上可以做缺陷修复工作，但当前迭代之外的需求不能混到release分支中，通过在release分支上进行缺陷修复工作，可以将develop分支空闲出来进行后续迭代的开发。</p><p>本次迭代的测试环境，预发布环境，生产环境部署都是从release分支进行产物构建的。发布到生产环境后，release分支需要合并到develop分支和master分支，并且master分支需要打上这一次迭代上线的版本号（比如1.2.0），合并完成之后release分支可删除。</p><p><strong>hotfix分支：</strong></p><p>hotfix用于线上BUG的紧急修复（需要立即修复的BUG）。hotfix分支从master分支创建，hotfix类似于release分支，可用于测试，预发布，生产环境产物的构建。上线完成之后，hotfix分支需要合并到develop分支和master分支，合并后master分支需要打tag（比如1.2.1），合并完成之后，该分支可删除。</p><h1 id="Gitflow示意图"><a href="#Gitflow示意图" class="headerlink" title="Gitflow示意图"></a>Gitflow示意图</h1><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://doc.iot.chinamobile.com/download/attachments/1212629/image2019-10-25_18-1-11.png?version=1&modificationDate=1573459394000&api=v2" alt="Gitflow" title="">                </div>                <div class="image-caption">Gitflow</div>            </figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;版本号规范&quot;&gt;&lt;a href=&quot;#版本号规范&quot; class=&quot;headerlink&quot; title=&quot;版本号规范&quot;&gt;&lt;/a&gt;版本号规范&lt;/h1&gt;&lt;p&gt;规范的概要如下：&lt;/p&gt;
+&lt;p&gt;版本格式：主版本号.次版本号.修订号，版本号递增规则如下：&lt;/p&gt;
+&lt;p&gt;主版本号：
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我见我想我为</title>
+    <link href="https://zhanls.github.io/2020/06/27/%E6%88%91%E8%A7%81%E6%88%91%E6%83%B3%E6%88%91%E4%B8%BA/"/>
+    <id>https://zhanls.github.io/2020/06/27/%E6%88%91%E8%A7%81%E6%88%91%E6%83%B3%E6%88%91%E4%B8%BA/</id>
+    <published>2020-06-26T16:32:30.000Z</published>
+    <updated>2020-10-10T01:35:50.662Z</updated>
+    
+    <content type="html"><![CDATA[<p>什么感觉都没有实在是太难受了，<br>回想前文，我刚从家里出发，<br>谁知道居然给一个B-，实在是难以接受啊<br>理由很简单却，就是你这个人工作消极怠工，<br>交代的事件却没了下文，没闪么好看的，写作的时候旁边一顶要安静，<br>这篇文章我会发布出去，<br>没有为什么，就当做一种发泄</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;什么感觉都没有实在是太难受了，&lt;br&gt;回想前文，我刚从家里出发，&lt;br&gt;谁知道居然给一个B-，实在是难以接受啊&lt;br&gt;理由很简单却，就是你这个人工作消极怠工，&lt;br&gt;交代的事件却没了下文，没闪么好看的，写作的时候旁边一顶要安静，&lt;br&gt;这篇文章我会发布出去，&lt;br&gt;没有为什
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>总结JavaScript闭包(Closure)</title>
+    <link href="https://zhanls.github.io/2020/06/24/%E6%80%BB%E7%BB%93JavaScript%E9%97%AD%E5%8C%85-Closure/"/>
+    <id>https://zhanls.github.io/2020/06/24/%E6%80%BB%E7%BB%93JavaScript%E9%97%AD%E5%8C%85-Closure/</id>
+    <published>2020-06-24T06:21:13.000Z</published>
+    <updated>2020-10-10T03:34:22.973Z</updated>
+    
+    <content type="html"><![CDATA[<p>闭包（closure）是Javascript语言的一个难点，也是它的特色，很多高级应用都要依靠闭包实现。</p><p>根据MDN对闭包的讲解，<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures" target="_blank" rel="noopener">什么是闭包</a>：</p><blockquote><p>函数和对其周围状态（lexical environment，词法环境）的引用捆绑在一起构成闭包（closure）。也就是说，闭包可以让你从内部函数访问外部函数作用域。在 JavaScript 中，每当函数被创建，就会在函数生成时生成闭包。</p></blockquote><p>第一次看到这里的时候，我还挺惊讶的，没想到每个函数的创建，实际上都有一个闭包也在生成，这也决定了，如果我被问到这方面的问题，绝对说不点子上、</p><p>然后把，我又想了一下，已经2020年了，针对这个问题网上资源众多，还是放弃了自己再重新写一篇博客，组织文章结构，组织语言，实在太麻烦了，放出几个我学习闭包的链接吧：</p><ol><li><a href="https://www.zhihu.com/question/34210214?sort=created" target="_blank" rel="noopener">什么是闭包？ - 知乎</a></li><li><a href="https://javascript.ruanyifeng.com/grammar/function.html#toc22" target="_blank" rel="noopener">阮一峰老师教学</a></li><li><a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023021250770016" target="_blank" rel="noopener">廖雪峰老师教学</a></li></ol><p>补充:<br>在<strong>全栈工程师修炼指南</strong>中，四火老师在<strong>JavaScript面向对象</strong>一文中也提到了闭包（Closure）的概念。他指出：</p><blockquote><p>闭包简单说，就是引用了自由变量的函数。这里的关键是“自由变量”，其实这个自由变量，扮演的作用是为这个函数调用提供了一个“上下文”，而上下文的不同，将对入参相同的函数调用造成不同的影响，它包括：</p></blockquote><ul><li>函数的行为不同，即函数调用改变其上下文中的其它变量，如例子中的 setName()</li><li>函数的返回值不同，如例子中的 getName()</li></ul><p>再补充：<br>闭包翻译自英文单词closure，这是个有些不好理解的词. 根据wiki百科：</p><blockquote><p>在计算机科学中，<strong>闭包</strong>（英语：Closure），又称<strong>词法闭包</strong>（Lexical Closure）或<strong>函数闭包</strong>（function closures），是在支持头等函数的编程语言中实现词法绑定的一种技术。<br>闭包并不只是JavaScript独有的一个概念，实际上，这个概念最早应该是由Peter Landin提出，他将其定义为一种包含环境成分和控制成分的实体，用于在他的SECD机器上对表达式求值。在编程语言Scheme上，就有对闭包最早的实现</p></blockquote><p>概念误区：</p><p>有些人会把JavaScript执行上下文，或者作用域(Scope, ES3规定的执行上下文的一部分)这个概念当作闭包。</p><p>实际上JavaScript中跟闭包对应的概念就是“函数”，可能是这个概念太过于普通，跟闭包看起来又没什么联系，所以大家才不自觉地把这个概念对应到了看起来更特别的“作用域”吧。</p><p>执行上下文：</p><p>相比普通函数，JavaScript函数的主要复杂性来自于它携带的“环境部分”。当然，发展到今天的JavaScript，它所定义的环境部分，已经比当初经典的定义复杂了很多。</p><p>闭包与JavaScript函数：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://static001.geekbang.org/resource/image/68/52/68f50c00d475a7d6d8c7eef6a91b2152.png" alt="闭包与JavaScript函数" title="">                </div>                <div class="image-caption">闭包与JavaScript函数</div>            </figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;闭包（closure）是Javascript语言的一个难点，也是它的特色，很多高级应用都要依靠闭包实现。&lt;/p&gt;
+&lt;p&gt;根据MDN对闭包的讲解，&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>取消请求：Axios cancelToken原理及应用</title>
+    <link href="https://zhanls.github.io/2020/06/24/%E5%8F%96%E6%B6%88%E8%AF%B7%E6%B1%82%EF%BC%9AAxios-cancelToken%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
+    <id>https://zhanls.github.io/2020/06/24/%E5%8F%96%E6%B6%88%E8%AF%B7%E6%B1%82%EF%BC%9AAxios-cancelToken%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/</id>
+    <published>2020-06-24T06:18:44.000Z</published>
+    <updated>2020-10-10T01:35:50.654Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;前一段时间在做后台管理系统上传图片时遇到这么一个问题：上传图片相关操作都在一个element-ui的dialog对话框内完成，若在图片上传完成之前，用户点击”取消”按钮关闭了对话框，此时处于pending状态的上传图片请求需要取消。</p><p>&emsp;为了解决这个问题，后来就跑去查了一下Axios API文档，发现里面有一段对cancelToken取消请求的介绍，挺有意思的，记录如下。</p><h3 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h3><p>我们先来看看CancelToken的基本用法：</p><h4 id="第一种方式"><a href="#第一种方式" class="headerlink" title="第一种方式"></a>第一种方式</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> CancelToken = axios.CancelToken;</span><br><span class="line"><span class="keyword">const</span> source = CancelToken.source();</span><br><span class="line"></span><br><span class="line">axios.get(<span class="string">'/user/12345'</span>, &#123;</span><br><span class="line">  cancelToken: source.token</span><br><span class="line">&#125;).catch(<span class="function"><span class="keyword">function</span> (<span class="params">thrown</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (axios.isCancel(thrown)) &#123;</span><br><span class="line">    <span class="comment">// 请求主动被取消</span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'请求已被取消'</span>, thrown.message);</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="comment">// 处理其他错误</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">axios.post(<span class="string">'/user/12345'</span>, &#123;</span><br><span class="line">  name: <span class="string">'new name'</span></span><br><span class="line">&#125;, &#123;</span><br><span class="line">  cancelToken: source.token</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 取消请求 (消息参数是可选的)</span></span><br><span class="line">source.cancel(<span class="string">'不想请求了'</span>);</span><br></pre></td></tr></table></figure><p>注意，虽然例子里没有列出来，但是含有cancelToken键的对象参数在:</p><ol><li>发送delete，head和options请求时，是放在第<code>二</code>个参数里</li><li>发送post, put, patch请求时，是放在第<code>三</code>个参数里</li></ol><h4 id="第二种方式"><a href="#第二种方式" class="headerlink" title="第二种方式"></a>第二种方式</h4><p>直接调用执行器里里的cancel方法</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> CancelToken = axios.CancelToken;</span><br><span class="line"><span class="keyword">let</span> cancel;</span><br><span class="line"></span><br><span class="line">axios.get(<span class="string">'/user/12345'</span>, &#123;</span><br><span class="line">  cancelToken: <span class="keyword">new</span> CancelToken(<span class="function"><span class="keyword">function</span> <span class="title">executor</span>(<span class="params">c</span>) </span>&#123;</span><br><span class="line">    cancel = c</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">cancel()</span><br></pre></td></tr></table></figure><p>Ok, 那么好奇<del>(作死)</del>的小伙伴看到就会问了啊</p><blockquote><p>为什么它这么写就可以取消请求啊？</p></blockquote><blockquote><p>它内部到底是如何实现的？</p></blockquote><p>PS：也是以防面试时被问到了答不上来~(●’◡’●)</p><h3 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h3><p>以下摘自axios v0.19.0: <code>node_modules/axios/lib/adapters/xhr.js</code> 159行至171行</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (config.cancelToken) &#123;</span><br><span class="line">  <span class="comment">// Handle cancellation</span></span><br><span class="line">  config.cancelToken.promise.then(<span class="function"><span class="keyword">function</span> <span class="title">onCanceled</span>(<span class="params">cancel</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!request) &#123;</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    request.abort();</span><br><span class="line">    reject(cancel);</span><br><span class="line">    <span class="comment">// Clean up request</span></span><br><span class="line">    request = <span class="literal">null</span>;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>分析：从上述源码可以看到，发送请求过程中，如果config对象参数里有cancelToken键，执行axios.CancelToken.source().token原型的promise方法</p><p>以下摘自axios v0.19.0: <code>node_modules/axios/lib/cancel/CancelToken.js</code></p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Returns an object that contains a new `CancelToken` and a function that, when called,</span></span><br><span class="line"><span class="comment"> * cancels the `CancelToken`.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">CancelToken.source = <span class="function"><span class="keyword">function</span> <span class="title">source</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> cancel;</span><br><span class="line">  <span class="keyword">var</span> token = <span class="keyword">new</span> CancelToken(<span class="function"><span class="keyword">function</span> <span class="title">executor</span>(<span class="params">c</span>) </span>&#123;</span><br><span class="line">    cancel = c;</span><br><span class="line">  &#125;);</span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    token: token,</span><br><span class="line">    cancel: cancel</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>分析：可以看到，当用户调用source.cancel()方法的时候，实际上调用了传入executor函数的第一个参数函数cancel，上面第二种用法就是这样使用的</p><p>下面我们来分析一下CancelToken类</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">'use strict'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> Cancel = <span class="built_in">require</span>(<span class="string">'./Cancel'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * A `CancelToken` is an object that can be used to request cancellation of an operation.</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@class</span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;Function&#125;</span> </span>executor The executor function.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">CancelToken</span>(<span class="params">executor</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (<span class="keyword">typeof</span> executor !== <span class="string">'function'</span>) &#123;</span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> <span class="built_in">TypeError</span>(<span class="string">'executor must be a function.'</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> resolvePromise;</span><br><span class="line">  <span class="keyword">this</span>.promise = <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span> <span class="title">promiseExecutor</span>(<span class="params">resolve</span>) </span>&#123;</span><br><span class="line">    resolvePromise = resolve;</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> token = <span class="keyword">this</span>;</span><br><span class="line">  <span class="comment">// 执行了里面的cancel方法</span></span><br><span class="line">  executor(<span class="function"><span class="keyword">function</span> <span class="title">cancel</span>(<span class="params">message</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (token.reason) &#123;</span><br><span class="line">      <span class="comment">// Cancellation has already been requested</span></span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    token.reason = <span class="keyword">new</span> Cancel(message);</span><br><span class="line">    resolvePromise(token.reason);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>分析：记得<code>xhr.js</code>里的<code>config.cancelToken.promise.then()</code>函数吗？这个promise的resolve方法会在cancel方法被调用之后触发，最后调用到request.abort()中止请求~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;前一段时间在做后台管理系统上传图片时遇到这么一个问题：上传图片相关操作都在一个element-ui的dialog对话框内完成，若在图片上传完成之前，用户点击”取消”按钮关闭了对话框，此时处于pending状态的上传图片请求需要取消。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;为
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
